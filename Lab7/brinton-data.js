@@ -1,7 +1,4 @@
-var omaJson =
-{
-    "type": "FeatureCollection",
-    "features": [
+var omaJson = [
         {
             "type": "Feature",
             "properties": {
@@ -17979,5 +17976,5 @@ var omaJson =
             }
         }
     ]
-}
+
 ;
