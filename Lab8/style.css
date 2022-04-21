@@ -9,7 +9,7 @@ html, body{
 }
 
 body {
-    background-color: #2A2D2D;
+    background-color: #191c1c;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,8 +19,8 @@ body {
 }
 
 svg{
-    background-color: #305555;
-    padding: 10px;
+    background-color: #386969;
+    padding: 15px;
     border-radius: 5px;
 }
 
@@ -31,7 +31,7 @@ svg{
 
 
 .county:hover{
-    fill: black
+    fill: grey
 }
 
 g{
@@ -50,7 +50,7 @@ g{
 
 #legend{
     color: rgb(56, 58, 74);
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     min-height: 150px;
     max-width: 180px;
@@ -60,7 +60,7 @@ g{
 
 
 #title{
-    font-size: 28px;
+    font-size: 35px;
     color: #FDF1E7;
     text-transform: uppercase;
     margin-top: 10px;
