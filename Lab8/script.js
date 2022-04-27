@@ -1,5 +1,5 @@
-let countyURL = 'https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json'
-let educationURL = 'https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json'
+let countyURL = 'https://dfulton2.github.io/Lab8/counties.json'
+let educationURL = 'https://dfulton2.github.io/Lab8/Lab8edupercent.json'
 
 let countyData
 let educationData
