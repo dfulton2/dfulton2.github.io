@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style2.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha256-tHoAPGoNdhIR28YHl9DWLzeRfdwigkH7OCBXMrHXhoM=" crossorigin="anonymous"></script>
+    <title>United States Adult Education</title>
+    <style>
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    }
+
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+
+    tr:nth-child(odd) {
+    background-color: #396666;
+    }
+    </style>
+
+</head>
+<body>
+    <h2 id='title'>United States Adult Education</h2>
+    <div id='container'>
+        <svg id='canvas'>
+
+        </svg>
+        <div id='rightSide'>
+            <div id='tooltip'>
+
+            </div>
+            <svg id='legend'>
+                <g>
+                    <rect x="10" y="0" width="40" height="40" fill="#fc8662"></rect>
+                    <text x="60" y="20" fill="white">Less than 15%</text>
+                </g>
+                <g>
+                    <rect x="10" y="40" width="40" height="40" fill="#FFB347"></rect>
+                    <text x="60" y="60" fill="white">15% than 30%</text>
+                </g>
+                <g>
+                    <rect x="10" y="80" width="40" height="40" fill="#98fb98"></rect>
+                    <text x="60" y="100" fill="white">30% to 45%</text>
+                </g>
+                <g>
+                    <rect x="10" y="120" width="40" height="40" fill="#4ede4e"></rect>
+                    <text x="60" y="140" fill="white">More than 45%</text>
+                </g>
+            </svg>
+
+            <table>
+              <tr>
+                <th>Area Name</th>
+                <th>Education of Adults: Average
+            </th>
+              </tr>
+              <tr>
+                <td>United States</td>
+                <td>32.10%</td>
+
+              </tr>
+              <tr>
+                <td>Northeast</td>
+                <td>36.86%</td>
+
+              </tr>
+              <tr>
+                <td>Midwest</td>
+                <td>30.56%</td>
+
+              </tr>
+              <tr>
+                <td>South</td>
+                <td>30.11%</td>
+
+              </tr>
+              <tr>
+                <td>West</td>
+                <td>28.47</td>
+
+              </tr>
+
+            </table>
+
+            <div id='description'>Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014). Source: <a href='https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx'>USDA Economic Research Service</a></div>
+
+        </div>
+
+    </div>
+
+</body>
+<script defer src='script2.js'></script>
+
+</html>
